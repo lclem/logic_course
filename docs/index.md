@@ -24,7 +24,7 @@ monday 10:15-11:45, room 5440
 
 ## Outline
 
-| week  | lecture date  | topic  |  tutorial | 
-|---:|---:|---:|--:|
-| 1  | 24.02  |  - introduction | - propositional logic  | 
+| week  | lecture date | lecture topics  |  tutorials | 
+|---:|---:|:---|:--|
+| 1  | 24.02  |  introduction, <br> propositional logic | propositional logic  | 
 
