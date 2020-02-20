@@ -23,5 +23,22 @@
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
-| 1  | 24.02  |  introduction, <br> propositional logic | warm-up (Sec. 1.1), normal forms (NNF, CNF, DNF) P1.2.2, functionally complete set of connectives P1.2.3, equisatisfiable CNF P1.2.4 | 
+| 1  | 24.02  |  introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF)  | 
+| 2 | 02.03 | proof systems for propositional logic, completeness, compactness | |
+| 3 | 09.03 |  | |
+| 4 | 16.03 |  | |
+| 5 | 23.03 |  | |
+| 6 | 30.03 |  | |
+| 7 | 06.04 | | |
+| 8 | 13.04 | **EASTER** | 
+| 9 | 20.04 | **MIDTERM EXAM** | |
+| 10 | 27.04 |  | |
+| 11 | 04.05 | | |
+| 12 | 11.05 |  | |
+| 13 | 18.05 |  | |
+| 14 | 25.05 |  | |
+| 15 | 01.06 |  | |
+| 16 | 08.06 |  | |
+| 17 | 15.06 | **EXAM** | |
+|  | xx.09 | **REPAIR EXAM** | |
 
