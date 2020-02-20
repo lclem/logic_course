@@ -1,7 +1,4 @@
-# Logic course (2019-2020)
-monday 10:15-11:45, room 5440
-
-## Teaching material
+# Teaching material
 
 - ["Mathematical Logic"](https://www.springer.com/gp/book/9780387942582) by Ebbinghaus, Flum, and Thomas.
   - A classical book covering pure logic
@@ -11,7 +8,7 @@ monday 10:15-11:45, room 5440
   - It will be the main source of problems for the tutorials.
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
-## Learning points
+# Learning points
 - SAT project: 20 points = 10 public tests + 10 private tests.
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
@@ -22,7 +19,7 @@ monday 10:15-11:45, room 5440
 - Book feedback: +1 point for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student.
 - Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
 
-## Outline
+# Outline
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
