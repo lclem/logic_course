@@ -22,3 +22,9 @@ monday 10:15-11:45, room 5440
 - Book feedback: +1 point for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student.
 - Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
 
+## Outline
+
+| week  | lecture date  | topic  |  tutorial | 
+|---:|---:|---:|--:|
+| 1  | 24.02  |  - introduction | - propositional logic  | 
+
