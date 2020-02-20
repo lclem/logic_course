@@ -1,3 +1,6 @@
+---
+---
+
 # Teaching material
 
 - ["Mathematical Logic"](https://www.springer.com/gp/book/9780387942582) by Ebbinghaus, Flum, and Thomas.
