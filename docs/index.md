@@ -23,5 +23,5 @@
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
-| 1  | 24.02  |  introduction, <br> propositional logic | propositional logic  | 
+| 1  | 24.02  |  introduction, <br> propositional logic | warm-up (Sec. 1.1), normal forms (NNF, CNF, DNF) P1.2.2, functionally complete set of connectives P1.2.3, equisatisfiable CNF P1.2.4 | 
 
