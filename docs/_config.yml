@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Logic course (2019-2020)
 description: mondays 10:15-11:45, room 5440@MIMUW
+github:
+  is_project_page: false
