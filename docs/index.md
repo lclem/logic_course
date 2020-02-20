@@ -24,21 +24,21 @@
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
 | 1  | 24.02  |  introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF)  | 
-| 2 | 02.03 | proof systems for propositional logic, completeness, compactness | |
-| 3 | 09.03 |  | |
-| 4 | 16.03 |  | |
-| 5 | 23.03 |  | |
-| 6 | 30.03 |  | |
-| 7 | 06.04 | | |
-| 8 | 13.04 | **EASTER** | 
+| 2 | 02.03 | proof systems for propositional logic, soundness, completeness, compactness | |
+| 3 | 09.03 | resolution and sat solving | |
+| 4 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
+| 5 | 23.03 | proof systems for first-order logic, soundness, completeness | |
+| 6 | 30.03 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
+| 7 | 06.04 | intuitionistic logic: propositional, first-order, role of law of excluded middle, Curry-Howard correspondence (lambda-calculus and dependent types) | |
+| 8 | 13.04 | (EASTER) | 
 | 9 | 20.04 | **MIDTERM EXAM** | |
-| 10 | 27.04 |  | |
-| 11 | 04.05 | | |
-| 12 | 11.05 |  | |
-| 13 | 18.05 |  | |
-| 14 | 25.05 |  | |
-| 15 | 01.06 |  | |
-| 16 | 08.06 |  | |
+| 10 | 27.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 11 | 04.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
+| 12 | 11.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
+| 13 | 18.05 | arithmetic and Gödel's incompleteness theorem | |
+| 14 | 25.05 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory) | |
+| 15 | 01.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
+| 16 | 08.06 | miscellanea | |
 | 17 | 15.06 | **EXAM** | |
 |  | xx.09 | **REPAIR EXAM** | |
 
