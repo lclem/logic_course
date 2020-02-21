@@ -42,7 +42,7 @@
 | 5 | 30.03 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
 | 6 | 06.04 | intuitionistic logic: propositional, first-order, role of law of excluded middle, Curry-Howard correspondence (lambda-calculus and dependent types) | |
 | 7 | 13.04 | (EASTER) | 
-| 8 | 20.04 | **MIDTERM EXAM** | |
+| 8 | 20.04 | **MIDTERM EXAM** (rooms 5440 and 5050) | |
 | 9 | 27.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
 | 10 | 04.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
 | 11 | 11.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
