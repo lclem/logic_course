@@ -1,4 +1,4 @@
-# Teaching material
+## Teaching material
 
 - ["Mathematical Logic"](https://www.springer.com/gp/book/9780387942582) by Ebbinghaus, Flum, and Thomas.
   - A classical book covering pure logic
@@ -8,7 +8,7 @@
   - It will be the main source of problems for the tutorials.
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
-# Learning points
+## Learning points
 - SAT project: **20 points** = 10 public tests + 10 private tests.
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
@@ -19,27 +19,38 @@
 - Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake.
 - Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
 
-# Outline
+## Labs
+* Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers.
+* Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. **SAT project presentation**.
+* Lab03 (weeks 4,5) [Z3]: SAT as a blackbox.
+* LABS for week 6 are **cancelled** due to the subsequent Easter.
+* Lab04 (weeks 7,8) [coq]: Intuitionistic propositional logic.
+* Lab05 (weeks 9,10) [coq]: First-order propositional logic. **COQ project presentation**.
+* Lab06 (weeks 11,12) [Prolog]: First-order logic.
+* Lab07 (weeks 13,14) [Prolog]: First-order logic.
+* LABS for week 15 are officially **cancelled** (so each group has 7 labs).
+
+## Outline
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
-| 1  | 24.02 | introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF, proof of correctness)  | 
-| 2 | 02.03 | proof systems for propositional logic, soundness, completeness, compactness | |
-| 3 | 09.03 | resolution and sat solving | |
-| 4 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
-| 5 | 23.03 | proof systems for first-order logic, soundness, completeness | |
-| 6 | 30.03 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
-| 7 | 06.04 | intuitionistic logic: propositional, first-order, role of law of excluded middle, Curry-Howard correspondence (lambda-calculus and dependent types) | |
-| 8 | 13.04 | (EASTER) | 
-| 9 | 20.04 | **MIDTERM EXAM** | |
-| 10 | 27.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
-| 11 | 04.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
-| 12 | 11.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
-| 13 | 18.05 | arithmetic and Gödel's incompleteness theorem | |
-| 14 | 25.05 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory) | |
-| 15 | 01.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
-| 16 | 08.06 | miscellanea | |
-| 17 | 15.06 | **EXAM** | |
+| 0  | 24.02 | introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF, proof of correctness)  | 
+| 1 | 02.03 | proof systems for propositional logic, soundness, completeness, compactness | |
+| 2 | 09.03 | resolution and sat solving | |
+| 3 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
+| 4 | 23.03 | proof systems for first-order logic, soundness, completeness | |
+| 5 | 30.03 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
+| 6 | 06.04 | intuitionistic logic: propositional, first-order, role of law of excluded middle, Curry-Howard correspondence (lambda-calculus and dependent types) | |
+| 7 | 13.04 | (EASTER) | 
+| 8 | 20.04 | **MIDTERM EXAM** | |
+| 9 | 27.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 10 | 04.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
+| 11 | 11.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
+| 12 | 18.05 | arithmetic and Gödel's incompleteness theorem | |
+| 13 | 25.05 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory) | |
+| 14 | 01.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
+| 15 | 08.06 | miscellanea | |
+| 16 | 15.06 | **EXAM** | |
 |  | xx.09 | **REPAIR EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
