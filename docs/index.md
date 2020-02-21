@@ -42,3 +42,4 @@
 | 17 | 15.06 | **EXAM** | |
 |  | xx.09 | **REPAIR EXAM** | |
 
+[[sources](https://github.com/lclem/logic_course)]
