@@ -8,7 +8,7 @@
   - It will be the main source of problems for the tutorials.
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
-## Learning points
+## (L)earning points
 - SAT project: **20 points** = 10 public tests + 10 private tests.
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
