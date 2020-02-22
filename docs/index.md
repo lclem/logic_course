@@ -23,12 +23,12 @@
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers.
 * Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. **SAT project presentation**.
 * Lab03 (weeks 4,5) [Z3]: SAT as a blackbox.
-* LABS for week 6 are **cancelled** due to the subsequent Easter.
+* Labs for week 6 are **cancelled** due to the subsequent Easter.
 * Lab04 (weeks 7,8) [coq]: Intuitionistic propositional logic.
 * Lab05 (weeks 9,10) [coq]: Intuitionistic First-order logic. **COQ project presentation**.
 * Lab06 (weeks 11,12) [Prolog]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog]: Classical first-order logic.
-* LABS for week 15 are officially **cancelled** (so each group has 7 labs).
+* Labs for week 15 are officially **cancelled** (so each group has 7 labs).
 
 ## Outline
 
