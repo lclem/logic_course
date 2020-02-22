@@ -51,7 +51,7 @@
 | 13 | 25.05 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory) | |
 | 14 | 01.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
 | 15 | 08.06 | miscellanea | |
-| 16 | 15.06 | **EXAM** | |
-|  | xx.09 | **REPAIR EXAM** | |
+| 16 | xx.06 | **EXAM** | |
+| ∞ | xx.09 | **REPAIR EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
