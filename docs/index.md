@@ -35,7 +35,7 @@
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
 | 0  | 24.02 | introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF, proof of correctness)  | 
-| 1 | 02.03 | proof systems for propositional logic, soundness, completeness, compactness | |
+| 1 | 02.03 | proof systems for propositional logic, soundness, deduction theorem, completeness (weak and strong); compactness; interpolation | |
 | 2 | 09.03 | resolution and sat solving | |
 | 3 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
 | 4 | 23.03 | proof systems for first-order logic, soundness, completeness | |
