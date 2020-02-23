@@ -6,6 +6,7 @@
   - Great source of inspiration for a more applied approach to logic.
 - **NEW!** [Problem book](book/logic_book_2020-02-23.pdf).
   - It will be the main source of problems for the tutorials.
+  - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
 - [skrypt](https://www.mimuw.edu.pl/~urzy/calosc.pdf).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
@@ -17,7 +18,7 @@
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
 - Final exam: **40 points** = 10 (10 test questions) + 30 (3 problems).
-- Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake.
+- Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
 - Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
 
 ## Labs
