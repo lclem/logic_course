@@ -36,7 +36,7 @@
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
-| 0  | 24.02 | organisation; historical context; introduction to propositional logic, tautology is coNP-complete, P1.2.3 (functionally complete set of connectives); multi-valued logics | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), <del>P1.2.3 (functionally complete set of connectives),</del> P1.2.4 (equisatisfiable CNF, proof of correctness)  | 
+| 0  | 24.02 | organisation; historical context; introduction to propositional logic, tautology is coNP-complete, P1.2.3 (functionally complete set of connectives); multi-valued logics [[slides]](slides/01-intro.pdf) | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), <del>P1.2.3 (functionally complete set of connectives),</del> P1.2.4 (equisatisfiable CNF); P1.3.1-1.3.4 (complexity of SAT)  | 
 | 1 | 02.03 | proof systems for propositional logic, soundness, deduction theorem, completeness (weak and strong); compactness; interpolation | |
 | 2 | 09.03 | resolution and sat solving | |
 | 3 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
