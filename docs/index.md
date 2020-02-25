@@ -22,7 +22,7 @@
 - Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
 
 ## Labs
-* Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers.
+* Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
 * Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. **SAT project presentation**.
 * Lab03 (weeks 4,5) [Z3]: SAT as a blackbox.
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
