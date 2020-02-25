@@ -4,10 +4,10 @@
   - A classical book covering pure logic
 - ["Handbook of Practical Logic and Automated Reasoning"](https://www.cl.cam.ac.uk/~jrh13/atp/) by John Harrison [[vid1]](https://www.youtube.com/watch?v=Nydg-N83VYc)[[vid2]](https://www.youtube.com/watch?v=iPFJY0aW4E4)[[vid3]](https://www.youtube.com/watch?v=ZdJ0-V77f_0)[[vid4]](https://www.youtube.com/watch?v=g3EQKBMq5h0).
   - Great source of inspiration for a more applied approach to logic.
-- **NEW!** [Problem book](book/logic_book_2020-02-23.pdf).
+- **NEW!** [Problem book](book/logic_book_2020-02-24.pdf).
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
-- [skrypt](https://www.mimuw.edu.pl/~urzy/calosc.pdf).
+- [skrypt](https://www.mimuw.edu.pl/~urzy/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
 ## (L)earning points
@@ -36,7 +36,7 @@
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
-| 0  | 24.02 | introduction, history, propositional logic | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), P1.2.3 (functionally complete set of connectives), P1.2.4 (equisatisfiable CNF, proof of correctness)  | 
+| 0  | 24.02 | organisation; historical context; introduction to propositional logic, tautology is coNP-complete, P1.2.3 (functionally complete set of connectives); multi-valued logics [[slides]](slides/01-intro.pdf) | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), <del>P1.2.3 (functionally complete set of connectives),</del> P1.2.4 (equisatisfiable CNF); P1.3.1-1.3.4 (complexity of SAT)  | 
 | 1 | 02.03 | proof systems for propositional logic, soundness, deduction theorem, completeness (weak and strong); compactness; interpolation | |
 | 2 | 09.03 | resolution and sat solving | |
 | 3 | 16.03 | first-order logic: syntax, semantics, examples, Codd's theorem | |
@@ -44,8 +44,8 @@
 | 5 | 30.03 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
 | 6 | 06.04 | intuitionistic logic: propositional, first-order, role of law of excluded middle, Curry-Howard correspondence (lambda-calculus and dependent types) | |
 | 7 | 13.04 | (EASTER) | 
-| 8 | 20.04 | **MIDTERM EXAM** (rooms 5440 and 5050) | |
-| 9 | 27.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 8 | 20.04 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 9 | 27.04 | **MIDTERM EXAM** (rooms 5440 and 5050) | |
 | 10 | 04.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
 | 11 | 11.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
 | 12 | 18.05 | arithmetic and Gödel's incompleteness theorem | |
