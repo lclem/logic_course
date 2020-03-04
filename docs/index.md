@@ -29,8 +29,8 @@
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
 * Lab04 (weeks 7,8) [coq]: Intuitionistic propositional logic.
 * Lab05 (weeks 9,10) [coq]: Intuitionistic First-order logic. **COQ project presentation**.
-* Lab06 (weeks 11,12) [Prolog]: Classical first-order logic.
-* Lab07 (weeks 13,14) [Prolog]: Classical first-order logic.
+* Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
+* Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
 
 ## Outline
