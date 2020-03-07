@@ -17,6 +17,7 @@
   - Must show their code to their lab tutor before (and including) their respective last lab.
   - Any programming language is allowed.
   - Deadline for submission: 12th June 2020, 20:00.
+  - [Detailed description](https://github.com/logic-course/sat-solver/blob/master/description.pdf).
 - COQ project: **10 points**.
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
