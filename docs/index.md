@@ -16,6 +16,7 @@
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
   - Any programming language is allowed.
+  - Announcement of the project: 20th March 2020.
   - Deadline for submission: 12th June 2020, 20:00.
   - [Detailed description](https://github.com/logic-course/sat-solver/blob/master/description.pdf).
 - COQ project: **10 points**.
