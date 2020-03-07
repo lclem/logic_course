@@ -15,6 +15,7 @@
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
   - Any programming language is allowed.
+  - Deadline for submission: 12nd June 2020, 20:00.
 - COQ project: **10 points**.
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
