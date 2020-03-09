@@ -58,6 +58,6 @@
 | 14 | 01.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
 | 15 | 08.06 | miscellanea | |
 | 16 | xx.06 | **EXAM** | |
-| ∞ | xx.09 | **REPAIR EXAM** | |
+| ∞ | xx.09 | **2nd TAKE EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
