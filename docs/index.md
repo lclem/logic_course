@@ -28,7 +28,8 @@
 
 ## Labs
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
-* Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. **SAT project presentation**.
+* Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. [[lab02.zip]](labs/lab02.zip)
+* **SAT project presentation** at the end of week 3.
 * Lab03 (weeks 4,5) [Z3]: SAT as a blackbox.
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
 * Lab04 (weeks 7,8) [coq]: Intuitionistic propositional logic.
