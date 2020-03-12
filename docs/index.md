@@ -11,6 +11,13 @@
 - [skrypt](https://www.mimuw.edu.pl/~urzy/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
+## Remote learning
+
+Rocket.Chat:
+- [lecture](https://chat.mimuw.edu.pl/channel/LDI2020_lecture).
+- Lab groups: [1](https://chat.mimuw.edu.pl/channel/loglab1-jc), [2](https://chat.mimuw.edu.pl/group/loglab2-lc).
+- Tutorial groups: [3](https://chat.mimuw.edu.pl/channel/ldi2020_tutorial3).
+
 ## (L)earning points
 - SAT project: **20 points** = 10 public tests + 10 private tests.
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
