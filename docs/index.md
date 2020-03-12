@@ -8,7 +8,7 @@
 - **NEW!** [Problem book](book/logic_book_2020-02-24.pdf).
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
-- [skrypt](https://www.mimuw.edu.pl/~urzy/calosc.pdf) (po polsku).
+- [skrypt](skrypt/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772).
 
 ## Remote learning
