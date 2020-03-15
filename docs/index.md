@@ -16,7 +16,7 @@
 Rocket.Chat:
 - [lecture](https://chat.mimuw.edu.pl/channel/LDI2020_lecture).
 - Lab groups: [1](https://chat.mimuw.edu.pl/channel/loglab1-jc), [2](https://chat.mimuw.edu.pl/channel/loglab2-lc).
-- Tutorial groups: [3](https://chat.mimuw.edu.pl/channel/ldi2020_tutorial3).
+- Tutorial groups: 3 [[rocket.chat]](https://chat.mimuw.edu.pl/channel/ldi2020_tutorial3) [[hangouts]](https://hangouts.google.com/group/6fPCSsSHt4WboAV5A).
 
 ## (L)earning points
 - SAT project: **20 points** = 10 public tests + 10 private tests.
