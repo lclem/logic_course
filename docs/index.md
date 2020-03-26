@@ -26,24 +26,27 @@ Rocket.Chat:
   - Announcement of the project: 20th March 2020.
   - Deadline for submission: 12th June 2020, 20:00.
   - [Detailed description](https://github.com/logic-course/sat-solver/blob/master/description.pdf).
-- COQ project: **10 points**.
+- Agda project: **10 points**.
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
 - Final exam: **40 points** = 10 (10 test questions) + 30 (3 problems).
 - Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
-- Final score: min(SAT +  COQ + MIDTERM + FINAL + BOOK, 100).
+- Final score: min(SAT + Agda + MIDTERM + FINAL + BOOK, 100).
 
 ## Labs
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
 * Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. [[lab02.zip]](labs/lab02.zip)
 * **SAT project presentation** at the end of week 3.
-* Lab03 (weeks 4,5) [Z3]: SAT as a blackbox.
+* Lab04 (weeks 4,5) [[Agda Lab 01]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb): Intuitionistic propositional logic.
+
+<del>
+* Lab03 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
-* Lab04 (weeks 7,8) [coq]: Intuitionistic propositional logic.
-* Lab05 (weeks 9,10) [coq]: Intuitionistic First-order logic. **COQ project presentation**.
+* Lab05 (weeks 9,10) [Agda Lab 02]: Intuitionistic First-order logic. **Agda project presentation**.
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
+<\del>
 
 ## Outline
 
