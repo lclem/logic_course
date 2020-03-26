@@ -1,0 +1,32 @@
+#!/bin/bash
+
+cabal update
+cabal install alex
+cabal install happy
+cabal install Agda-2.6.0
+
+make kernel-install
+make codemirror-install
+
+sudo apt-get install agda-mode
+sudo apt-get install agda-stdlib
+agda-mode setup
+
+export PATH=$PATH:$HOME/.cabal/bin/
+echo PATH=$PATH:$HOME/.cabal/bin/ > /srv/conda/etc/conda/activate.d
+echo PATH=$PATH:$HOME/.cabal/bin/ > $HOME/.bashrc
+
+pip install agda_kernel
+python -m agda_kernel.install
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable agda-extension/main
+jupyter nbextension enable literate-markdown/main
+jupyter nbextension enable toc2/main
+#jupyter nbextension enable hide_input/main
+#jupyter nbextension enable init_cell/main
+#jupyter nbextension enable freeze/main
+
+# change theme with jupyter-themes
+jt -t grade3 -f roboto -fs 10 -cellw 800 -altp -T
