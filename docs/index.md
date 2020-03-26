@@ -37,8 +37,12 @@ Rocket.Chat:
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
 * Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. [[lab02.zip]](labs/lab02.zip)
 * **SAT project presentation** at the end of week 3.
-* Lab03 (weeks 4,5) [[Agda Lab 01]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb): Intuitionistic propositional logic.
-
+* Lab03 (weeks 4,5) [[Agda Lab 01]](labs/agda/Lab01.ipynb): Intuitionistic propositional logic. There are at least three options to work on this material:
+  1. Work on the notebook online with [mybinder](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb). This option is fully online, does not require any installation. In order to retain the work done, it is necessary to locally download the notebook once one is done with it. To start working again, launch mybinder as above and upload your local copy.
+  2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
+  3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
+  
+The information below is currently outdated due to the unforeseable future.
 <del>
 * Lab03 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
