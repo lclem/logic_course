@@ -43,14 +43,12 @@ Rocket.Chat:
   3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
   
 The information below is currently outdated due to the unforeseable future.
-<del>
-* Lab03 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Labs for week 6 are **cancelled** due to the subsequent Easter.
-* Lab05 (weeks 9,10) [Agda Lab 02]: Intuitionistic First-order logic. **Agda project presentation**.
+* Lab04 (weeks 7,8) [Agda Lab 02]: Intuitionistic First-order logic. **Agda project presentation**.
+* Lab05 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
-</del>
 
 ## Outline
 
