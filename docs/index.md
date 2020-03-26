@@ -37,7 +37,7 @@ Rocket.Chat:
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
 * Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. [[lab02.zip]](labs/lab02.zip)
 * **SAT project presentation** at the end of week 3.
-* Lab04 (weeks 4,5) [[Agda Lab 01]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb): Intuitionistic propositional logic.
+* Lab03 (weeks 4,5) [[Agda Lab 01]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb): Intuitionistic propositional logic.
 
 <del>
 * Lab03 (weeks 9,10) [Z3]: SAT as a blackbox.
@@ -46,7 +46,7 @@ Rocket.Chat:
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
-<\del>
+</del>
 
 ## Outline
 
