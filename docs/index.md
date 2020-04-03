@@ -41,7 +41,7 @@ Rocket.Chat:
   1. Work on the notebook online with [mybinder](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb). This option is fully online, does not require any installation. In order to retain the work done, it is necessary to locally download the notebook once one is done with it. To start working again, launch mybinder as above and upload your local copy.
   2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
   3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
-* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.ipynb): Intuitionistic First-order logic. **Agda project presentation**.
+* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.ipynb): Intuitionistic first-order logic. **Agda project presentation**.
 
 The information below is currently outdated due to the unforeseable future.
 * Lab05 (weeks 9,10) [Z3]: SAT as a blackbox.
