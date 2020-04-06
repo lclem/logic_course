@@ -41,9 +41,11 @@ Rocket.Chat:
   1. Work on the notebook online with [mybinder](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb). This option is fully online, does not require any installation. In order to retain the work done, it is necessary to locally download the notebook once one is done with it. To start working again, launch mybinder as above and upload your local copy.
   2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
   3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Popular local editors for working with Agda include [emacs](https://agda.readthedocs.io/en/v2.6.1/tools/emacs-mode.html) and [Atom](https://atom.io/packages/agda-mode). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
-* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.ipynb): Intuitionistic first-order logic. **Agda project presentation**.
+* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb): Intuitionistic first-order logic.
+* **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
 
-The information below is currently outdated due to the unforeseable future.
+**The information below is currently outdated!**
+
 * Lab05 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
@@ -60,16 +62,18 @@ The information below is currently outdated due to the unforeseable future.
 | 4 | 23.03 | first-order logic: syntax, semantics, examples, Codd's theorem, evaluation in AC0 for fixed formula, normal forms (NNF, PNF, SNF), Herbrand's theorem [[live stream]](https://youtu.be/R_aFVUzb7d8) [[slides]](slides/05-first_order_logic.pdf) | P2.1.2, P2.1.6-9 (definability examples), P2.2.1-2 (NNF, PNF), P2.3.1-3 (satisfaction relation), P2.6.1-2 (logical consequence), P2.14.1 (relational algebra) |
 | 5 | 30.03 | Hilbert's proof system for first-order logic, soundness, completeness [[live stream]](https://youtu.be/i1Nl1XOGxZ0) [[slides]](slides/06-completeness_FO.pdf) | expressing properties in first-order logic: spectrum (P2.8.2-2.8.9) and its closure properties (P2.8.10-13); infiniteness (P2.3.4-7) |
 | 6 | 06.04 | intuitionistic first-order logic: tautology examples, natural deduction, dependent types, lambdaP1 calculus, Kripke models, negative translation [[live stream]](https://youtu.be/epzULiW39p8) [[slides]](slides/07-intuitionistic_FO.pdf) | more on spectrum: P2.8.15 (semilinear sets), P2.8.21-22 (spectra of existential and universal sentences), P2.8.29 (spectra are in NEXPTIME); no exercises for IFOL (studied in labs) |
-| 7 | 13.04 | (EASTER) | 
+| 7 | 13.04 | (EASTER MONDAY) | 
 | 8 | 20.04 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
 | 9 | 27.04 | **MIDTERM EXAM** (rooms 5440 and 5050) | |
-| 10 | 04.05 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
-| 11 | 11.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
-| 12 | 18.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
-| 13 | 25.05 | arithmetic and Gödel's incompleteness theorem | |
-| 14 | 01.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory) | |
-| 15 | 08.06 | monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
+| 10 | 04.05 | (NO LECTURE, Friday schedule on this Monday) | |
+| 11 | 11.05 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 12 | 18.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
+| 13 | 25.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
+| 14 | 01.06 | arithmetic and Gödel's incompleteness theorem | |
+| 15 | 08.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
 | 16 | xx.06 | **EXAM** | |
 | ∞ | xx.09 | **2nd TAKE EXAM** | |
+
+monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem)
 
 [[sources](https://github.com/lclem/logic_course)]
