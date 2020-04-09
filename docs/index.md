@@ -44,7 +44,7 @@ Rocket.Chat:
 * Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb): Intuitionistic first-order logic.
 * **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
 
-**The information below is currently outdated!**
+**The information on labs below is currently outdated**
 
 * Lab05 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
@@ -73,7 +73,5 @@ Rocket.Chat:
 | 15 | 08.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
 | 16 | xx.06 | **EXAM** | |
 | ∞ | xx.09 | **2nd TAKE EXAM** | |
-
-monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem)
 
 [[sources](https://github.com/lclem/logic_course)]
