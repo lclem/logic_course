@@ -64,7 +64,7 @@ Rocket.Chat:
 | 6 | 06.04 | intuitionistic first-order logic: tautology examples, natural deduction, dependent types, lambdaP1 calculus, Kripke models, negative translation [[live stream]](https://youtu.be/epzULiW39p8) [[slides]](slides/07-intuitionistic_FO.pdf) | more on spectrum: P2.8.15 (semilinear sets), P2.8.21-22 (spectra of existential and universal sentences), P2.8.29 (spectra are in NEXPTIME); no exercises for IFOL (studied in labs) |
 | 7 | 13.04 | (EASTER MONDAY) | 
 | 8 | 20.04 | compactness, Skolem-Löwenheim theorems, nonaxiomatisability | |
-| 9 | 27.04 | **MIDTERM EXAM** (rooms 5440 and 5050) | |
+| 9 | 27.04 | **MIDTERM EXAM** | |
 | 10 | 04.05 | (NO LECTURE, Friday schedule on this Monday) | |
 | 11 | 11.05 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
 | 12 | 18.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
