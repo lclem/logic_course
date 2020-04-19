@@ -1,4 +1,4 @@
-FAQ for the SAT solver project
+# FAQ for the SAT solver project
 
 Q. Are the tests that are not visible for us more complicated than the examples provided in tests directory?
 I mean, can we assume (with some accuracy) that if our solution does not exceed timeout for examples,
@@ -12,7 +12,7 @@ and the results will be communicated so there will be time for fix-ups before th
 
 Q. Are we allowed to use multi-threading in our solution?
 
-A. Yes, however it is neither necessary nor sufficient to solve the task.
+A. Yes, however using multi-threading is neither necessary nor sufficient to solve the task.
 
 ***
 
