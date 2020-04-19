@@ -26,6 +26,7 @@ Rocket.Chat:
   - Announcement of the project: 20th March 2020.
   - Deadline for submission: 12th June 2020, 20:00.
   - [Detailed description](labs/task01_description.pdf). The submission is done in GitHub Classroom, as specified in the detailed description.
+  - **NEW**: [FAQ](labs/task01_FAQ.md) for the SAT project.
 - Agda project: **10 points**.
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
