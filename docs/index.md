@@ -30,6 +30,7 @@ Rocket.Chat:
 - Agda project: **10 points**.
   - Deadline for submission: two weeks after the task is given.
 - Mid-term exam: **30 points** (3 problems).
+  - Coverage: lecture and related tutorial material weeks 0-5 included, except intuitionistic propositional/FO logic (e.g., no compactness/Skolem-Löwenheim for first-order logic).
 - Final exam: **40 points** = 10 (10 test questions) + 30 (3 problems).
 - Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
 - Final score: min(SAT + Agda + MIDTERM + FINAL + BOOK, 100).
