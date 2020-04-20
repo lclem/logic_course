@@ -65,7 +65,7 @@ Rocket.Chat:
 | 5 | 30.03 | Hilbert's proof system for first-order logic, soundness, completeness [[live stream]](https://youtu.be/i1Nl1XOGxZ0) [[slides]](slides/06-completeness_FO.pdf) | expressing properties in first-order logic: spectrum (P2.8.2-2.8.9) and its closure properties (P2.8.10-13); infiniteness (P2.3.4-7) |
 | 6 | 06.04 | intuitionistic first-order logic: tautology examples, natural deduction, dependent types, lambdaP1 calculus, Kripke models, negative translation [[live stream]](https://youtu.be/epzULiW39p8) [[slides]](slides/07-intuitionistic_FO.pdf) | more on spectrum: P2.8.15 (semilinear sets), P2.8.21-22 (spectra of existential and universal sentences), P2.8.29 (spectra are in NEXPTIME), P2.8.25-26 (counting spectrum); no exercises for IFOL (covered by the labs) |
 | 7 | 13.04 | (EASTER MONDAY) | 
-| 8 | 20.04 | compactness, Skolem-Löwenheim theorem, nonaxiomatisability | non-axiomatisability via compactness: P2.9.6, P2.9.7, P2.9.9, P2.9.10, P2.9.14, P2.9.15, P2.9.16 (done in the lecture), P2.9.18, P2.9.21, P2.9.22; applications of Skolem-Löwenheim: P2.10.2 (done in the lecture), P2.10.4, P2.10.7, P2.10.8 |
+| 8 | 20.04 | compactness, Skolem-Löwenheim theorem, nonaxiomatisability [[live stream]](https://youtu.be/E4JnHcKoTvo) [[slides]](slides/08-compactness_and_SL.pdf) | non-axiomatisability via compactness: P2.9.6, P2.9.7, P2.9.9, P2.9.10, P2.9.14, P2.9.15, P2.9.16 (done in the lecture), P2.9.18, P2.9.21, P2.9.22; applications of Skolem-Löwenheim: P2.10.2 (done in the lecture), P2.10.4, P2.10.7, P2.10.8 |
 | 9 | 27.04 | **MIDTERM EXAM** | |
 | 10 | 04.05 | (NO LECTURE, Friday schedule on this Monday) | |
 | 11 | 11.05 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
