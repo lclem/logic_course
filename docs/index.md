@@ -44,6 +44,7 @@ Rocket.Chat:
   2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
   3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Popular local editors for working with Agda include [emacs](https://agda.readthedocs.io/en/v2.6.1/tools/emacs-mode.html) and [Atom](https://atom.io/packages/agda-mode). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
 * Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb): Intuitionistic first-order logic.
+  - Also available on [nextjournal](https://nextjournal.com/a/MTG16bsjspisCTxKMrBHc?token=GntCzS9wsPvtKnojg74Dir). Instructions: Register on nextjournal, access the read-only link above, and *remix* the notebook. You can then add collaborators for collaborative editing.
 * **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
 
 **The information on labs below is currently outdated**
