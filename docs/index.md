@@ -47,9 +47,13 @@ Rocket.Chat:
   - Also available on [nextjournal](https://nextjournal.com/a/MTG16bsjspisCTxKMrBHc?token=GntCzS9wsPvtKnojg74Dir). Instructions: Register on nextjournal, access the read-only link above, and *remix* the notebook. You can then add collaborators for collaborative editing.
 * **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
 
+* Lab05 (weeks 9,10) [Z3 lab] [[colab]](https://colab.research.google.com/github/lclem/logic_course/blob/master/docs/labs/LabZ3.ipynb) [[nextcloud]](https://nextjournal.com/a/MTMzzvE9CWkVWUK8ncHnj?token=HSPYLRYt8L2yijQtvTMdZ8): SAT as a blackbox.
+  - Note: In order to use the Z3 library, we need more configurable systems like nextcloud and Google Colab where Z3 can be installed.
+  - Nextcloud instructions: Remix the read-only notebook and add your tutor as a collaborator for real-time feedback.
+  - Google colab instructions: Open the link and save a local copy in Drive.
+  
 **The information on labs below is currently outdated**
 
-* Lab05 (weeks 9,10) [Z3]: SAT as a blackbox.
 * Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
 * Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
