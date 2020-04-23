@@ -43,13 +43,13 @@ Rocket.Chat:
   1. Work on the notebook online with [mybinder](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb). This option is fully online, does not require any installation. In order to retain the work done, it is necessary to locally download the notebook once one is done with it. To start working again, launch mybinder as above and upload your local copy.
   2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
   3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Popular local editors for working with Agda include [emacs](https://agda.readthedocs.io/en/v2.6.1/tools/emacs-mode.html) and [Atom](https://atom.io/packages/agda-mode). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
-* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb): Intuitionistic first-order logic.
-  - Also available on [nextjournal](https://nextjournal.com/a/MTG16bsjspisCTxKMrBHc?token=GntCzS9wsPvtKnojg74Dir). Instructions: Register on nextjournal, access the read-only link above, and *remix* the notebook. You can then add collaborators for collaborative editing.
+* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb) [[nextjournal]](https://nextjournal.com/a/MTG16bsjspisCTxKMrBHc?token=GntCzS9wsPvtKnojg74Dir): Intuitionistic first-order logic.
+  - Nextjournal instructions: Register on nextjournal, access the read-only link above, and *remix* the notebook. You can then add collaborators for collaborative editing.
 * **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
 
-* Lab05 (weeks 9,10) [Z3 lab] [[colab]](https://colab.research.google.com/github/lclem/logic_course/blob/master/docs/labs/LabZ3.ipynb) [[nextcloud]](https://nextjournal.com/a/MTMzzvE9CWkVWUK8ncHnj?token=HSPYLRYt8L2yijQtvTMdZ8): SAT as a blackbox.
-  - Note: In order to use the Z3 library, we need more configurable systems like nextcloud and Google Colab where Z3 can be installed.
-  - Nextcloud instructions: Remix the read-only notebook and add your tutor as a collaborator for real-time feedback.
+* Lab05 (weeks 9,10) [Z3 lab] [[colab]](https://colab.research.google.com/github/lclem/logic_course/blob/master/docs/labs/LabZ3.ipynb) [[nextjournal]](https://nextjournal.com/a/MTMzzvE9CWkVWUK8ncHnj?token=HSPYLRYt8L2yijQtvTMdZ8): SAT as a blackbox.
+  - Note: In order to use the Z3 library, we need more configurable systems like Nextjournal and Google Colab where Z3 can be installed.
+  - Nextjournal instructions: Remix the read-only notebook and add your tutor as a collaborator for real-time feedback.
   - Google colab instructions: Open the link and save a local copy in Drive.
   
 **The information on labs below is currently outdated**
