@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Set up git repo
         uses: actions/checkout@v2
+      - name: Install cabal
+        run: sudo apt-get install ghc cabal-install
+      - name: Update cabal
+        run: cabal update
       - name: Extract issues
         run: cd acknowledgments && cabal run > ../acknowledgments.txt
       - name: Upload acknowledgments.txt
