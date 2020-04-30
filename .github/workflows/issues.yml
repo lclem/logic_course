@@ -13,7 +13,7 @@ jobs:
       - name: Set up git repo
         uses: actions/checkout@v2
       - name: Extract issues
-        run: cd acknowledgments && stack run > ../acknowledgments.txt
+        run: cd acknowledgments && cabal run > ../acknowledgments.txt
       - name: Upload acknowledgments.txt
         uses: actions/upload-artifact@v1
         with:
