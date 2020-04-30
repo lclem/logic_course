@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Set up git repo
         uses: actions/checkout@v2
+      - name: Checkout also the book's repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'lclem/problem_book'
+          token: ${{ secrets.ACCESS_TOKEN }}
       - name: Install cabal
         run: sudo apt-get install cabal-install
       - name: Update cabal
@@ -20,7 +25,15 @@ jobs:
 #        run: cabal install hpack
       - name: Extract issues
         run: cd acknowledgments && stack run > ../acknowledgments.txt # hpack && 
-      - name: Upload acknowledgments.txt
+      - name: Copy acknowledgments
+        run: cp acknowledgments.txt problem_book/
+      - name: Commit problem_book
+        uses: stefanzweifel/git-auto-commit-action@v4.1.6
+        with:
+          repository: 'lclem/problem_book'
+          token: ${{ secrets.ACCESS_TOKEN }}
+          commit_message: Update acknowledgments
+      - name: Upload artifact acknowledgments.txt
         uses: actions/upload-artifact@v1
         with:
           name: acknowledgments
