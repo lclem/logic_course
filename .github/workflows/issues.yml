@@ -13,13 +13,13 @@ jobs:
       - name: Set up git repo
         uses: actions/checkout@v2
       - name: Install cabal
-        run: sudo apt-get install ghc cabal-install
+        run: sudo apt-get install cabal-install
       - name: Update cabal
         run: cabal update
-      - name: Install hpack
-        run: cabal install hpack
+#      - name: Install hpack
+#        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && hpack && cabal run > ../acknowledgments.txt
+        run: cd acknowledgments && cabal run > ../acknowledgments.txt # hpack && 
       - name: Upload acknowledgments.txt
         uses: actions/upload-artifact@v1
         with:
