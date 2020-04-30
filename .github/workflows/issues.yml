@@ -39,10 +39,10 @@ jobs:
         with:
           path: .stack-work
           key: ${{ runner.os }}-stack-work-${{ hashFiles('stack.yaml') }}-${{ hashFiles('package.yaml') }}-${{ '**/*.hs' }}
-      - name: Install cabal
-        run: sudo apt-get install cabal-install
-      - name: Update cabal
-        run: cabal update
+#      - name: Install cabal
+#        run: sudo apt-get install cabal-install
+#      - name: Update cabal
+#        run: cabal update
 #      - name: Install hpack
 #        run: cabal install hpack
       - name: Extract issues
