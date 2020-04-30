@@ -16,8 +16,10 @@ jobs:
         run: sudo apt-get install ghc cabal-install
       - name: Update cabal
         run: cabal update
+      - name: Install hpack
+        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && cabal run > ../acknowledgments.txt
+        run: cd acknowledgments && hpack && cabal run > ../acknowledgments.txt
       - name: Upload acknowledgments.txt
         uses: actions/upload-artifact@v1
         with:
