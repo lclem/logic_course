@@ -55,7 +55,7 @@ jobs:
           repository: 'lclem/problem_book'
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: Copy acknowledgments
-        run: cp /home/runner/acknowledgments.txt .
+        run: cp /home/runner/acknowledgments.txt . && git add acknowledgments.txt
       - name: Commit problem_book
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
