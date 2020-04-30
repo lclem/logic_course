@@ -19,7 +19,7 @@ jobs:
 #      - name: Install hpack
 #        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && cabal run > ../acknowledgments.txt # hpack && 
+        run: cd acknowledgments && stack run > ../acknowledgments.txt # hpack && 
       - name: Upload acknowledgments.txt
         uses: actions/upload-artifact@v1
         with:
