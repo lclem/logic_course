@@ -12,6 +12,17 @@ jobs:
     steps:
       - name: Set up git repo
         uses: actions/checkout@v2
+      - name: Cache stack
+        uses: actions/cache@v1
+        env:
+          cache-name: cache-stack
+        with:
+          path: ~/.stack
+          key: ${{ runner.os }}-build-${{ env.cache-name }} #-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       - name: Install cabal
         run: sudo apt-get install cabal-install
       - name: Update cabal
