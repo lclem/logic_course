@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'lclem/problem_book'
-          path: '/home/runner/'
+          path: 'somewhereelse'
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: ls
         run: cd ~ && ls -la && find . -type d
