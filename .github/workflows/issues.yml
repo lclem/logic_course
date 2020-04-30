@@ -53,9 +53,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'lclem/problem_book'
+          path: '~/'
           token: ${{ secrets.ACCESS_TOKEN }}
+      - name: ls
+        run: ls -la && find . -type d
       - name: Copy acknowledgments
-        run: cp /home/runner/acknowledgments.txt . && git add acknowledgments.txt
+        run: cp /home/runner/acknowledgments.txt ~/problem_book/
+      - name: Commit acknowledgments
+        run: cd problem_book && git add acknowledgments.txt
       - name: Commit problem_book
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
