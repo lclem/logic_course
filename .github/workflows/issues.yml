@@ -56,7 +56,7 @@ jobs:
           path: '~/'
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: ls
-        run: ls -la && find . -type d
+        run: cd ~ && ls -la && find . -type d
       - name: Copy acknowledgments
         run: cp /home/runner/acknowledgments.txt ~/problem_book/
       - name: Commit acknowledgments
