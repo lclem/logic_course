@@ -16,7 +16,7 @@ dependencies:
 - bytestring
 - containers
 - exceptions
-- github >= 0.25
+- github #>= 0.25
 - text
 - vector
 - yaml >= 0.8.3
