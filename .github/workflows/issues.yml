@@ -1,0 +1,21 @@
+name: 'issue closed'
+on:
+  issues:
+    types: [closed]
+  push:
+    branches:
+      - master
+
+jobs:
+  update-acknowledgments:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Set up git repo
+        uses: actions/checkout@v2
+      - name: Extract issues
+        run: cd acknowledgments && stack run > ../acknowledgments.txt
+      - name: Upload acknowledgments.txt
+        uses: actions/upload-artifact@v1
+        with:
+          name: acknowledgments
+          path: acknowledgments.txt
