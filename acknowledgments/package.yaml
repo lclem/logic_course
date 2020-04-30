@@ -1,4 +1,4 @@
-name:                acks
+name:                acknowledgments
 version:             0.1.0.0
 license:             LGPL
 author:              ""
@@ -16,10 +16,13 @@ dependencies:
 - bytestring
 - containers
 - exceptions
-- github #>= 0.25
+- github
 - text
 - vector
 - yaml >= 0.8.3
+
+extra-deps:
+- github >= 0.25
 
 executables:
   acknowledgements:
