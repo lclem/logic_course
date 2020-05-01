@@ -46,7 +46,7 @@ jobs:
 #      - name: Install hpack
 #        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && stack run > ../contributors.txt # hpack && 
+        run: cd acknowledgments && stack run "${{ secrets.CONTRIBUTORS_MAPPING }}" > ../contributors.txt # hpack && 
       - name: Copy acknowledgments
         run: cp contributors.txt /home/runner/
       - name: Checkout the book's repo
