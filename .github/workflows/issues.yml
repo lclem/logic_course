@@ -46,9 +46,9 @@ jobs:
 #      - name: Install hpack
 #        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && stack run > ../acknowledgments.tex # hpack && 
+        run: cd acknowledgments && stack run > ../contributors.txt # hpack && 
       - name: Copy acknowledgments
-        run: cp acknowledgments.tex /home/runner/
+        run: cp contributors.txt /home/runner/
       - name: Checkout the book's repo
         uses: actions/checkout@v2
         with:
@@ -59,17 +59,17 @@ jobs:
 #      - name: ls
 #        run: cd ~ && ls -la && find . -type d
       - name: Copy acknowledgments
-        run: cp /home/runner/acknowledgments.tex .
+        run: cp /home/runner/contributors.txt .
       - name: Commit acknowledgments
-        run: git add acknowledgments.tex
+        run: git add contributors.txt
       - name: Commit problem_book
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
           #repository: 'lclem/problem_book'
           token: ${{ secrets.ACCESS_TOKEN }}
           commit_message: Update acknowledgments
-      - name: Upload artifact acknowledgments.tex
+      - name: Upload artifact contributors.txt
         uses: actions/upload-artifact@v1
         with:
-          name: acknowledgments
-          path: acknowledgments.tex
+          name: contributors
+          path: contributors.txt
