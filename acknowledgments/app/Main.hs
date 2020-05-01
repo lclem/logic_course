@@ -47,7 +47,7 @@ theRepo = owner ++ "/" ++ repo
 
 compile :: [String] -> M.Map String String
 compile [] = M.empty
-compile (x:xs) = M.insert key value (compile xs)
+compile (x:xs) = res
   where
     es = splitOn " " x
     key = es !! 0
@@ -56,6 +56,8 @@ compile (x:xs) = M.insert key value (compile xs)
     surname | length es > 2 = es !! 2
             | otherwise = ""
     value = name ++ " " ++ surname
+    res | name /= "" && surname /= "" = M.insert key value (compile xs)
+        | otherwise = compile xs
 
 main :: IO ()
 main = do
