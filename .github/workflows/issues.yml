@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  update-acknowledgments:
+  update-contributors:
     runs-on: [ubuntu-latest]
     steps:
       - name: Set up git repo
@@ -67,7 +67,7 @@ jobs:
         with:
           #repository: 'lclem/problem_book'
           token: ${{ secrets.ACCESS_TOKEN }}
-          commit_message: Update acknowledgments
+          commit_message: Update contributors
       - name: Upload artifact contributors.txt
         uses: actions/upload-artifact@v1
         with:
