@@ -4,3 +4,4 @@
 docs/.jekyll-metadata
 **/_site/*
 *.lock
+**/.stack-work/*

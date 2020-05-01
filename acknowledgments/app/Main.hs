@@ -8,6 +8,7 @@
 
 import Data.Foldable
 import Data.Maybe
+import qualified Data.List as L
 import Data.Text (Text)
 import qualified Data.Text as Text
 import qualified Data.ByteString.Char8 as BS
@@ -29,28 +30,42 @@ import GitHub.Data.Definitions ( SimpleUser( simpleUserLogin ) )
 import qualified GitHub.Endpoints.Issues.Milestones as GH ( milestones' )
 import qualified GitHub.Endpoints.Issues as GH ( issuesForRepo' )
 
+import qualified Data.Map.Strict as M
+import Data.List.Split
+
 formatUser :: SimpleUser -> Text
 formatUser = untagName . simpleUserLogin
+
+-- convert github login into personal name
+convert :: M.Map String String -> String -> String
+convert mapping githubid = M.findWithDefault githubid githubid mapping
 
 envGHToken = "GITHUBTOKEN"
 owner = "lclem"
 repo  = "logic_course"
 theRepo = owner ++ "/" ++ repo
 
-main :: IO ()
-main = run -- getArgs >>= \case { [arg] -> run (Text.pack arg) ; _ -> usage }
+compile :: [String] -> M.Map String String
+compile [] = M.empty
+compile (x:xs) = M.insert key value (compile xs)
+  where
+    es = splitOn " " x
+    key = es !! 0
+    name | length es > 1 = es !! 1
+         | otherwise = ""
+    surname | length es > 2 = es !! 2
+            | otherwise = ""
+    value = name ++ " " ++ surname
 
-usage :: IO ()
-usage = putStrLn $ unlines
-  [ "Usage: ClosedIssuesForMilestone <milestone>"
-  , ""
-  , "Retrieves closed issues for the given milestone from github repository"
-  , theRepo ++ " and prints them to stdout."
-  ]
+main :: IO ()
+main = do
+  [arg] <- getArgs
+  let tuples = splitOn ";" arg
+  run (compile tuples)
 
 -- | Retrieve closed issues for the given milestone and print to stdout.
-run :: {- Text -> -} IO ()
-run {- mileStoneTitle -} = do
+run :: M.Map String String -> IO ()
+run mapping = do
 
   -- Get authentication token from environment.
   -- auth <- OAuth . BS.pack <$> getEnv envGHToken
@@ -79,11 +94,17 @@ run {- mileStoneTitle -} = do
         ]
 
   -- Print issues.
-  forM_ issues $ \ Issue{ issueNumber, issueTitle, issueUser } -> putStrLn $
-    "  [#" ++ show issueNumber
-    ++ "](https://github.com/" ++ theRepo ++ "/issues/" ++ show issueNumber
-    ++ "): " ++ Text.unpack issueTitle ++ " by " ++ (Text.unpack $ formatUser $ issueUser)
+--  forM_ issues $ \ Issue{ issueNumber, issueTitle, issueUser } -> putStrLn $
+--    "  [#" ++ show issueNumber
+--    ++ "](https://github.com/" ++ theRepo ++ "/issues/" ++ show issueNumber
+--    ++ "): " ++ Text.unpack issueTitle ++ " by " ++ (Text.unpack $ formatUser $ issueUser)
 
+  let contributors = [ convert mapping $ Text.unpack $ formatUser $ issueUser issue | issue <- issues ]
+  let contributorsNames = map (convert mapping) contributors
+  let contributorsNamesClean = L.nub $ L.sort contributorsNames
+
+  forM_ contributorsNamesClean $ \ name -> putStrLn name
+  
 -- | Crash on exception.
 crashOr :: Show e => IO (Either e a) -> IO a
 crashOr m = either (die . show) return =<< m

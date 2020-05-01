@@ -19,10 +19,11 @@ dependencies:
 - github
 - text
 - vector
+- split
 - yaml >= 0.8.3
 
-extra-deps:
-- github >= 0.25
+#extra-deps:
+#- github >= 0.25
 
 executables:
   acknowledgements:
