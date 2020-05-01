@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  update-acknowledgments:
+  update-contributors:
     runs-on: [ubuntu-latest]
     steps:
       - name: Set up git repo
@@ -46,7 +46,7 @@ jobs:
 #      - name: Install hpack
 #        run: cabal install hpack
       - name: Extract issues
-        run: cd acknowledgments && stack run > ../contributors.txt # hpack && 
+        run: cd acknowledgments && stack run "${{ secrets.CONTRIBUTORS_MAPPING }}" > ../contributors.txt # hpack && 
       - name: Copy acknowledgments
         run: cp contributors.txt /home/runner/
       - name: Checkout the book's repo
@@ -67,7 +67,7 @@ jobs:
         with:
           #repository: 'lclem/problem_book'
           token: ${{ secrets.ACCESS_TOKEN }}
-          commit_message: Update acknowledgments
+          commit_message: Update contributors
       - name: Upload artifact contributors.txt
         uses: actions/upload-artifact@v1
         with:
