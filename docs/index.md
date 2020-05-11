@@ -74,7 +74,7 @@ Rocket.Chat:
 | 8 | 20.04 | compactness, Skolem-Löwenheim theorem, nonaxiomatisability [[live stream]](https://youtu.be/E4JnHcKoTvo) [[slides]](slides/08-compactness_and_SL.pdf) | non-axiomatisability via compactness: P2.9.6, P2.9.7, P2.9.9, P2.9.10, P2.9.14, P2.9.15, P2.9.16 (done in the lecture); applications of Skolem-Löwenheim: P2.10.2 (done in the lecture), P2.10.7 |
 | 9 | 27.04 | **MIDTERM EXAM** | more compactness (P2.9.4, P2.9.5, P2.9.18, P2.9.22) and Skolem-Löwenheim (P2.10.4, P2.10.9, P2.10.10, P2.10.11) |
 | 10 | 04.05 | (NO LECTURE, Friday schedule on this Monday) | |
-| 11 | 11.05 | isomorphism, logical relations, Ehrenfeucht-Fraïssé games, inexpressibility | |
+| 11 | 11.05 | relational homomorphisms, isomorphisms, Ehrenfeucht-Fraïssé games, application to non-definability and non-axiomatisability | P2.11.7 (isomorphism); P2.11.12, P2.12.4, P2.12.5, P2.12.6 (elementary equivalence), P2.12.10 (distinguishing sentences), P2.12.13 (infinite EF game) |
 | 12 | 18.05 | the decision problem: semidecidability of validity and finite satifiability; undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
 | 13 | 25.05 | decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) | |
 | 14 | 01.06 | arithmetic and Gödel's incompleteness theorem | |
