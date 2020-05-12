@@ -55,8 +55,8 @@ Rocket.Chat:
   
 **The information on labs below is currently outdated**
 
-* Lab06 (weeks 11,12) [Prolog?]: Classical first-order logic.
-* Lab07 (weeks 13,14) [Prolog?]: Classical first-order logic.
+* Lab06 (weeks 11,12) [Haskell] [[nextjournal]](https://nextjournal.com/a/MXfaeLFbJoDxtZJcgoKYS?token=LJUyJXBFS9931sYXePTAiJ): Classical first-order logic: Syntax, semantics, normal forms (NNF, PNF).
+* Lab07 (weeks 13,14) [Haskell]: Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
 * Labs for week 15 are officially **cancelled** (so each group has 7 labs).
 
 ## Outline
