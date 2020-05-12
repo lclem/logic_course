@@ -53,11 +53,8 @@ Rocket.Chat:
   - Nextjournal instructions: Remix the read-only notebook and add your tutor as a collaborator for real-time feedback.
   - Google colab instructions: Open the link and save a local copy in Drive.
   
-**The information on labs below is currently outdated**
-
 * Lab06 (weeks 11,12) [Haskell] [[nextjournal]](https://nextjournal.com/a/MXfaeLFbJoDxtZJcgoKYS?token=LJUyJXBFS9931sYXePTAiJ): Classical first-order logic: Syntax, semantics, normal forms (NNF, PNF).
 * Lab07 (weeks 13,14) [Haskell]: Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
-* Labs for week 15 are officially **cancelled** (so each group has 7 labs).
 
 ## Outline
 
@@ -80,6 +77,6 @@ Rocket.Chat:
 | 14 | 01.06 | arithmetic and Gödel's incompleteness theorem | |
 | 15 | 08.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
 | 16 | xx.06 | **EXAM** | |
-| ∞² | xx.09 | **2nd TAKE EXAM** | |
+| ∞ | xx.09 | **2nd TAKE EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
