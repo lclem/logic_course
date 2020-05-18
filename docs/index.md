@@ -8,6 +8,8 @@
 - **NEW!** [Problem book (**new version 2020-03-15**)](book/logic_book_2020-03-15.pdf).
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
+- **NEW!** [Agda FAQ](labs/agda/agda_FAQ.md).
+  - More questions on Agda will be collected there if they pop up.
 - [skrypt](skrypt/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772) [[mirror]](archive/exam-pack.zip).
 
