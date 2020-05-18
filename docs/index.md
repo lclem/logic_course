@@ -79,4 +79,5 @@ Rocket.Chat:
 | 16 | xx.06 | **EXAM** | |
 | ∞ | xx.09 | **2nd TAKE EXAM** | |
 
+
 [[sources](https://github.com/lclem/logic_course)]
