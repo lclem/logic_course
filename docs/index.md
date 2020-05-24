@@ -5,9 +5,10 @@
 - ["Handbook of Practical Logic and Automated Reasoning"](https://www.cl.cam.ac.uk/~jrh13/atp/) by John Harrison [[vid1]](https://www.youtube.com/watch?v=Nydg-N83VYc)[[vid2]](https://www.youtube.com/watch?v=iPFJY0aW4E4)[[vid3]](https://www.youtube.com/watch?v=ZdJ0-V77f_0)[[vid4]](https://www.youtube.com/watch?v=g3EQKBMq5h0).
   - Great source of inspiration for a more applied approach to logic.
   - Expecially Sec. 2.9 on **DPLL SAT**.
-- **NEW!** [Problem book (**new version 2020-03-15**)](book/logic_book_2020-03-15.pdf).
+- Problem book (**latest version**: [2020-05-24](book/logic_book_2020-05-24.pdf); previous versions: [2020-02-24](book/logic_book_2020-02-24.pdf), [2020-03-15](book/logic_book_2020-03-15.pdf)). 
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
+    
 - **NEW!** [Agda FAQ](labs/agda/agda_FAQ.md).
   - More questions on Agda will be collected there if they pop up.
 - [skrypt](skrypt/calosc.pdf) (po polsku).
