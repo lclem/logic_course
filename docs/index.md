@@ -77,11 +77,10 @@ Rocket.Chat:
 | 10 | 04.05 | (NO LECTURE, Friday schedule on this Monday) | |
 | 11 | 11.05 | relational homomorphisms, isomorphisms, Ehrenfeucht-Fraïssé games, application to non-definability and non-axiomatisability [[live stream]](https://youtu.be/mtmksRJ3zmM) [[slides]](slides/09-EF_games.pdf) | P2.11.7 (isomorphism); P2.11.12, P2.12.4, P2.12.5, P2.12.6 (elementary equivalence), P2.12.10 (distinguishing sentences), P2.12.13 (infinite EF game |
 | 12 | 18.05 | the decision problem: semidecidability of validity and finite satifiability; decidable theories: finite model property (restriction on quantifier prefix, signature), quantifier elimination (equality, dense order, linear arithmetic, Presburger arithmetic, Tarski's algebra) [[slides]](slides/10-quantifier_elimination.pdf) [[live stream]](https://youtu.be/PpFjRg2_NpM) | P2.12.22-23 (inexpressibility via EF-games); P4.1.3-4 (small model property); P4.2.4, P4.2.6, P4.2.8-9, P4.2.11 (quantifier elimination) |
-| 13 | 25.05 | undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) | |
-| 14 | 01.06 | arithmetic and Gödel's incompleteness theorem | |
-| 15 | 08.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
+| 13 | 25.05 | undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) [[slides]](slides/11-undecidability.pdf) [[live-stream]](https://youtu.be/3NRi9S-F2Vk) | |
+| 14 | 01.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) | |
+| 15 | 08.06 | arithmetic and Gödel's incompleteness theorem | |
 | 16 | xx.06 | **EXAM** | |
 | ∞ | xx.09 | **2nd TAKE EXAM** | |
-
 
 [[sources](https://github.com/lclem/logic_course)]
