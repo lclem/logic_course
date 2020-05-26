@@ -58,7 +58,7 @@ Rocket.Chat:
   - Google colab instructions: Open the link and save a local copy in Drive.
   
 * Lab06 (weeks 11,12) [Haskell] [[nextjournal]](https://nextjournal.com/a/MXfaeLFbJoDxtZJcgoKYS?token=LJUyJXBFS9931sYXePTAiJ): Classical first-order logic: Syntax, semantics, normal forms (NNF, PNF).
-* Lab07 (weeks 13,14) [Haskell]: Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
+* Lab07 (weeks 13,14) [Haskell] [[nextjournal]](https://nextjournal.com/a/MadgWAgVngRAgsQNyT2ff?token=JuTL4RzYRwBGph5Eg3rENE): Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
 
 ## Outline
 
