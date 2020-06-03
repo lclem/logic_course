@@ -38,7 +38,8 @@ Rocket.Chat:
 - Final exam: **40 points** (3 problems).
   - **NEW**: This year there will be no test for the final exam, just problems.
 - Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
-- Final score: min(SAT + Agda + MIDTERM + FINAL + BOOK, 100).
+- Final score (up to 100 points without BOOK): SAT + Agda + MIDTERM + FINAL + BOOK.
+- Guaranteed conversion thresholds: [50,59] gives 3, [60,69] gives 3.5, [70,79] gives 4, [80,89] gives 4.5, [90,99] gives 5, [100,∞) gives 5.5.
 
 ## Labs
 * Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
