@@ -80,7 +80,7 @@ Rocket.Chat:
 | 13 | 25.05 | undecidability of validity (Church-Turing) and finite satisfiability (Trakhtenbrot) [[slides]](slides/11-undecidability.pdf) [[live-stream]](https://youtu.be/3NRi9S-F2Vk) | P2.12.11 (the hypercube), P2.12.27 (non-axiomatisability of the Church-Rosser property), P4.2.8-11 (quantifier elimination), P4.3.3 (decidability via interpretation) |
 | 14 | 01.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) [[slides]](slides/12-second_order_logic.pdf) [[live-stream]](https://youtu.be/qzMv-BpticE) | P3.1.2 (countability), P3.1.5-8 (reachability, connectivity, Euleriand and Hamiltonian cycles of infinite and finite graphs), P3.1.9 (colourability), P3.2.1 (compactness and SO), P3.2.2 (Skolem-Löwenheim and SO), P3.3.5 (star-free regular languages in FO)|
 | 15 | 08.06 | arithmetic and Gödel's incompleteness theorem | |
-| 16 | 19.06 | **EXAM** | |
+| 16 | 19.06 | **EXAM** 10am-1pm (3 hrs) | |
 | ∞ | xx.09 | **2nd TAKE EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
