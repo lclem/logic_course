@@ -13,6 +13,7 @@
   - More questions on Agda will be collected there if they pop up.
 - [skrypt](skrypt/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772) [[mirror]](archive/exam-pack.zip).
+- [Past test questions](https://docs.google.com/forms/d/e/1FAIpQLSelSJszgoUIlPPx1U3AcY2gFmeBBp2p4y3y2Rmt-8Aoq27psQ/viewform?usp=sf_link).
 
 ## Remote learning
 
