@@ -67,6 +67,9 @@ main = do
   let tuples = splitOn ";" arg
   run (compile tuples)
 
+count :: Eq a => a -> [a] -> Int
+count x = length . filter (x==)
+
 -- | Retrieve closed issues for the given milestone and print to stdout.
 run :: M.Map String String -> IO ()
 run mapping = do
@@ -106,8 +109,9 @@ run mapping = do
   let contributors = [ convert mapping $ Text.unpack $ formatUser $ issueUser issue | issue <- issues ]
   let contributorsNames = map (convert mapping) contributors
   let contributorsNamesClean = L.nub $ L.sort contributorsNames
-
-  forM_ contributorsNamesClean $ \ name -> putStrLn name
+  let contributorsNamesMultiplicity = map (\ name -> (name, count name contributorsNamesClean)) contributorsNamesClean
+  
+  forM_ contributorsNamesMultiplicity $ \ name n -> putStrLn name ++ "(" ++ show n ++ ")"
   
 -- | Crash on exception.
 crashOr :: Show e => IO (Either e a) -> IO a
