@@ -65,8 +65,7 @@ jobs:
       - name: Commit problem_book
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
-          #repository: 'lclem/problem_book'
-          token: ${{ secrets.ACCESS_TOKEN }}
+          #repository: 'somewhereelse'
           commit_message: Update contributors
       - name: Upload artifact contributors.txt
         uses: actions/upload-artifact@v1
