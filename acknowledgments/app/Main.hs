@@ -59,6 +59,8 @@ compile (x:xs) = res
     res | name /= "" && surname /= "" = M.insert key value (compile xs)
         | otherwise = compile xs
 
+-- we expect just one argument in the example format "lclem Lorenzo Clemente;githublogin Name Surname;"...
+
 main :: IO ()
 main = do
   [arg] <- getArgs
