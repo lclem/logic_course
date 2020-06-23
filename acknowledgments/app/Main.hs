@@ -111,7 +111,7 @@ run mapping = do
   let contributorsNamesClean = L.nub $ L.sort contributorsNames
   let contributorsNamesMultiplicity = map (\ name -> (name, count name contributorsNamesClean)) contributorsNamesClean
   
-  forM_ contributorsNamesMultiplicity $ \ name n -> putStrLn name ++ "(" ++ show n ++ ")"
+  forM_ contributorsNamesMultiplicity $ \ (name, n) -> (putStrLn $ name ++ " (" ++ show n ++ ")")
   
 -- | Crash on exception.
 crashOr :: Show e => IO (Either e a) -> IO a
