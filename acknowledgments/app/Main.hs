@@ -109,7 +109,7 @@ run mapping = do
   let contributors = [ convert mapping $ Text.unpack $ formatUser $ issueUser issue | issue <- issues ]
   let contributorsNames = map (convert mapping) contributors
   let contributorsNamesClean = L.nub $ L.sort contributorsNames
-  let contributorsNamesMultiplicity = map (\ name -> (name, count name contributorsNamesClean)) contributorsNamesClean
+  let contributorsNamesMultiplicity = map (\ name -> (name, count name contributorsNames)) contributorsNamesClean
   
   forM_ contributorsNamesMultiplicity $ \ (name, n) -> (putStrLn $ name ++ " (" ++ show n ++ ")")
   
