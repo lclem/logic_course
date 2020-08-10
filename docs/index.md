@@ -83,6 +83,6 @@ Rocket.Chat:
 | 14 | 01.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) [[live tream]](https://youtu.be/qzMv-BpticE) [[slides]](slides/12-second_order_logic.pdf) | P3.1.2 (countability), P3.1.5-8 (reachability, connectivity, Eulerian and Hamiltonian cycles of infinite and finite graphs), P3.1.9 (colourability), P3.2.1 (compactness and SO), P3.2.2 (Skolem-Löwenheim and SO), P3.3.5 (star-free regular languages in FO)|
 | 15 | 08.06 | arithmetic and Gödel's incompleteness theorem [[live stream]](https://youtu.be/S9uauo3oAqY) [[slides]](slides/13-incompleteness.pdf) | P5.1.3-4 (expressing numeric functions in arithmetic), P5.1.5 (Collatz), P5.2.1-4 (recognising languages in arithmetic), P5.2.7 (undecidability of the integers), P5.3.2 (elimination of weak second-order quantifiers in arithmetic) |
 | 16 | 19.06 | **EXAM** 10am-1pm (3 hrs) | |
-| ∞ | xx.09 | **2nd TAKE EXAM** | |
+| ∞  | 05.09 | **2nd TAKE EXAM** | |
 
 [[sources](https://github.com/lclem/logic_course)]
