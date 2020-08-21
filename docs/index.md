@@ -9,7 +9,7 @@
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
     
-- **NEW!** [Agda FAQ](labs/agda/agda_FAQ.md).
+- [Agda FAQ](labs/agda/agda_FAQ.md).
   - More questions on Agda will be collected there if they pop up.
 - [skrypt](skrypt/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772) [[mirror]](archive/exam-pack.zip).
@@ -30,14 +30,15 @@ Rocket.Chat:
   - Announcement of the project: 20th March 2020.
   - Deadline for submission: 12th June 2020, 20:00.
   - [Detailed description](labs/task01_description.pdf). The submission is done in GitHub Classroom, as specified in the detailed description.
-  - **NEW**: [FAQ](labs/task01_FAQ.md) for the SAT project.
+  - [FAQ](labs/task01_FAQ.md) for the SAT project.
 - Agda project: **10 points** (10 exercises, 1 point each).
   - Deadline for submission: 18th May 2020, 8pm.
   - Assignment invitation link sent via USOS mail.
 - Mid-term exam: **30 points** (3 problems).
   - Coverage: lecture and related tutorial material weeks 0-5 included, except intuitionistic propositional/FO logic (e.g., no compactness/Skolem-Löwenheim for first-order logic).
 - Final exam: **40 points** (3 problems).
-  - **NEW**: This year there will be no test for the final exam, just problems.
+  - This year there will be no test for the final exam, just problems.
+- **NEW** 2nd take exam: Subscribe in [this form](https://docs.google.com/forms/d/e/1FAIpQLSdak3wSZNfrhACgb9qRqdHOEse1J5zWuC1PXp0_jujitEykXw/viewform?usp=sf_link) if you are interested.
 - Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
 - Final score (up to 100 points without BOOK): SAT + Agda + MIDTERM + FINAL + BOOK.
 - Guaranteed conversion thresholds: [50,59] gives 3, [60,69] gives 3.5, [70,79] gives 4, [80,89] gives 4.5, [90,99] gives 5, [100,∞) gives 5.5.
@@ -83,6 +84,6 @@ Rocket.Chat:
 | 14 | 01.06 | second-order logic: expressiveness, failures (compactness, Skolem-Löwenheim theorems), nonaxiomatisability, Fagin's theorem (finite model theory), monadic second-order logic (word models, Büchi-Elgot-Trakhtenbrot's theorem) [[live tream]](https://youtu.be/qzMv-BpticE) [[slides]](slides/12-second_order_logic.pdf) | P3.1.2 (countability), P3.1.5-8 (reachability, connectivity, Eulerian and Hamiltonian cycles of infinite and finite graphs), P3.1.9 (colourability), P3.2.1 (compactness and SO), P3.2.2 (Skolem-Löwenheim and SO), P3.3.5 (star-free regular languages in FO)|
 | 15 | 08.06 | arithmetic and Gödel's incompleteness theorem [[live stream]](https://youtu.be/S9uauo3oAqY) [[slides]](slides/13-incompleteness.pdf) | P5.1.3-4 (expressing numeric functions in arithmetic), P5.1.5 (Collatz), P5.2.1-4 (recognising languages in arithmetic), P5.2.7 (undecidability of the integers), P5.3.2 (elimination of weak second-order quantifiers in arithmetic) |
 | 16 | 19.06 | **EXAM** 10am-1pm (3 hrs) | |
-| ∞  | 05.09 | **2nd TAKE EXAM** | |
+| < ∞  | 05.09 | **2nd TAKE EXAM** [[subscription form]](https://docs.google.com/forms/d/e/1FAIpQLSdak3wSZNfrhACgb9qRqdHOEse1J5zWuC1PXp0_jujitEykXw/viewform?usp=sf_link) | |
 
 [[sources](https://github.com/lclem/logic_course)]
