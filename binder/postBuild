@@ -16,7 +16,7 @@ export PATH=$PATH:$HOME/.cabal/bin/
 echo PATH=$PATH:$HOME/.cabal/bin/ > /srv/conda/etc/conda/activate.d
 echo PATH=$PATH:$HOME/.cabal/bin/ > $HOME/.bashrc
 
-pip install agda_kernel
+pip install agda_kernel==0.62
 python -m agda_kernel.install
 
 jupyter contrib nbextension install --user
